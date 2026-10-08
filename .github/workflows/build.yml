@@ -39,7 +39,7 @@ jobs:
             # 想要全世界的频道，就把下面这行前面的 # 去掉（文件会很大、播放器加载慢）
             # https://iptv-org.github.io/iptv/index.m3u
           # ===== 想让它先筛掉打不开的源，就改成 'true'（会慢几分钟） =====
-          IPTV_PROBE: 'false'
+          IPTV_PROBE: 'true'
         run: |
           cat > "$RUNNER_TEMP/build.mjs" <<'DSH_SCRIPT'
           #!/usr/bin/env node
