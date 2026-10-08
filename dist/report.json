@@ -1,0 +1,24 @@
+{
+  "builtAt": "2026-10-08T06:01:25Z",
+  "sources": 2,
+  "total": 363,
+  "output": 223,
+  "groups": {
+    "央视": 24,
+    "港澳台": 2,
+    "国际": 1,
+    "其他": 196
+  },
+  "sample": [
+    "央视 | CCTV-15 ( )",
+    "央视 | CCTV-5+",
+    "央视 | CCTV-6",
+    "央视 | CCTV-9 (576i)",
+    "央视 | CCTV-4 America ( )",
+    "央视 | CCTV-4 Europe",
+    "央视 | CGTN ( )",
+    "央视 | CGTN Global Biz ( )",
+    "央视 | CCTV-1 ( )",
+    "央视 | CCTV-1 ( )"
+  ]
+}
