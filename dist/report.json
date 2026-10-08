@@ -1,24 +1,25 @@
 {
-  "builtAt": "2026-10-08T06:16:09Z",
+  "builtAt": "2026-10-08T06:17:22Z",
   "sources": 2,
-  "total": 363,
-  "output": 223,
+  "total": 389,
+  "output": 249,
   "groups": {
-    "央视": 24,
+    "央视": 40,
+    "卫视": 10,
     "港澳台": 2,
     "国际": 1,
     "其他": 196
   },
   "sample": [
-    "央视 | CCTV-15 ( )",
-    "央视 | CCTV-5+",
-    "央视 | CCTV-6",
-    "央视 | CCTV-9 (576i)",
-    "央视 | CCTV-4 America ( )",
-    "央视 | CCTV-4 Europe",
-    "央视 | CGTN ( )",
-    "央视 | CGTN Global Biz ( )",
-    "央视 | CCTV-1 ( )",
-    "央视 | CCTV-1 ( )"
+    "央视 | CCTV-1",
+    "央视 | CCTV-10",
+    "央视 | CCTV-11",
+    "央视 | CCTV-12",
+    "央视 | CCTV-13",
+    "央视 | CCTV-14",
+    "央视 | CCTV-15",
+    "央视 | CCTV-16",
+    "央视 | CCTV-2",
+    "央视 | CCTV-3"
   ]
 }

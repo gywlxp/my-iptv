@@ -1,7 +1,39 @@
 #EXTM3U
 #EXTENC:UTF-8
-# 生成时间 build: 2026-10-08T06:16:09Z  频道数 channels: 223
+# 生成时间 build: 2026-10-08T06:17:22Z  频道数 channels: 249
 # 仅汇总公开可获取的直播地址，不存储、不转码任何内容；版权归各电视台所有。
+#EXTINF:-1 tvg-name="CCTV-1" group-title="央视",CCTV-1
+https://ghproxy.net/http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-10" group-title="央视",CCTV-10
+https://ghproxy.net/http://101.66.194.125:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="CCTV-11" group-title="央视",CCTV-11
+https://ghproxy.net/http://101.66.194.125:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="CCTV-12" group-title="央视",CCTV-12
+https://ghproxy.net/http://74.91.26.218:82/live/cctv12hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-13" group-title="央视",CCTV-13
+https://ghproxy.net/http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
+#EXTINF:-1 tvg-name="CCTV-14" group-title="央视",CCTV-14
+https://ghproxy.net/http://101.66.194.125:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="CCTV-15" group-title="央视",CCTV-15
+https://ghproxy.net/http://101.66.194.125:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="CCTV-16" group-title="央视",CCTV-16
+https://ghproxy.net/http://gmxw.7766.org:808/hls/169/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-2" group-title="央视",CCTV-2
+https://ghproxy.net/http://101.66.194.125:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="CCTV-3" group-title="央视",CCTV-3
+https://ghproxy.net/http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="CCTV-4" group-title="央视",CCTV-4
+https://ghproxy.net/http://1.197.250.140:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-5" group-title="央视",CCTV-5
+https://ghproxy.net/http://101.66.194.125:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="CCTV-6" group-title="央视",CCTV-6
+https://ghproxy.net/http://101.66.194.125:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="CCTV-7" group-title="央视",CCTV-7
+https://ghproxy.net/http://101.66.194.125:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="CCTV-8" group-title="央视",CCTV-8
+https://ghproxy.net/http://101.66.194.125:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="CCTV-9" group-title="央视",CCTV-9
+https://ghproxy.net/http://101.66.194.125:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="CCTV15.cn@SD" tvg-name="CCTV-15 ( )" tvg-logo="https://i.imgur.com/CCV0eRG.png" group-title="央视",CCTV-15 ( )
 https://xykt-fix.github.io/play/a02e/index.m3u8
 #EXTINF:-1 tvg-id="CCTV5Plus.cn@SD" tvg-name="CCTV-5+" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="央视",CCTV-5+
@@ -50,6 +82,26 @@ http://74.91.26.218:82/live/cctv7hd.m3u8
 http://74.91.26.218:82/live/cctv8hd.m3u8
 #EXTINF:-1 tvg-id="CCTV4Asia.cn@SD" tvg-name="CCTV-4 Asia ( )" tvg-logo="https://i.imgur.com/tWt4Wou.png" group-title="央视",CCTV-4 Asia ( )
 http://74.91.26.218:82/live/cctv4hd.m3u8
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="卫视",凤凰卫视中文台
+https://ghproxy.net/http://play-live.ifeng.com/live/06OLEGEGM4G.m3u8
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="卫视",凤凰卫视中文台
+https://cdn6.163189.xyz/163189/fhzw
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="卫视",凤凰卫视资讯台
+https://ghproxy.net/http://play-live.ifeng.com/live/06OLEEWQKN4.m3u8
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="卫视",凤凰卫视资讯台
+https://cdn6.163189.xyz/163189/fhzx
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="卫视",凤凰卫视资讯台
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV43.m3u8
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="卫视",凤凰卫视资讯台
+https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV22.m3u8
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="卫视",凤凰卫视中文台
+http://ccav.zone.id/php/fh.php?id=2
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="卫视",凤凰卫视中文台
+http://194.147.100.173/jsy/p.php/?id=JCoz2zYde_t5qVejd-bmnQ
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="卫视",凤凰卫视资讯台
+http://ccav.zone.id/php/fh.php?id=1
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="卫视",凤凰卫视资讯台
+http://194.147.100.173/jsy/p.php/?id=9SROfQYDaSDJmxFW1LvIXA
 #EXTINF:-1 tvg-id="TVBSNews.tw@SD" tvg-name="TVBS News" tvg-logo="https://i.imgur.com/171lwfg.png" group-title="港澳台",TVBS News
 http://seb.sason.top/sc/tvbsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="TVBSAsia.tw@SD" tvg-name="TVBS-Asia ( )" tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="港澳台",TVBS-Asia ( )
