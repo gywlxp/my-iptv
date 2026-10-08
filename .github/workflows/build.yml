@@ -34,10 +34,8 @@ jobs:
         env:
           # ===== 上游源地址：一行一个。想加就加一行，想去掉就删掉那一行 =====
           IPTV_SOURCES: |
+            https://ygas.github.io/iptv-sources/txt/ycl_iptv.txt
             https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
-            https://ghproxy.net/raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
-            https://ghproxy.net/raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-            https://ghproxy.net/raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
             https://live.hacks.tools/tv/ipv4/categories/hong_kong.m3u
             https://iptv-org.github.io/iptv/countries/cn.m3u
             https://iptv-org.github.io/iptv/languages/zho.m3u
