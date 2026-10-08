@@ -4,7 +4,7 @@ name: 生成我的IPTV订阅源
 on:
   workflow_dispatch:        # 允许你在网页上手动点按钮运行（第一次就用它）
   schedule:
-    - cron: '0 21 * * *'    # 每天 UTC 21:00（= 北京时间 05:00）自动跑一次；GitHub 可能延迟几分钟
+    - cron: '0 */6 * * *'    # 每天 UTC 21:00（= 北京时间 05:00）自动跑一次；GitHub 可能延迟几分钟
   push:
     paths:
       - 'data/manual.m3u'   # 你自己改了自己的源文件时，也顺手跑一次
