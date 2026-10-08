@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTENC:UTF-8
-# 生成时间 build: 2026-10-08T06:01:25Z  频道数 channels: 223
+# 生成时间 build: 2026-10-08T06:16:09Z  频道数 channels: 223
 # 仅汇总公开可获取的直播地址，不存储、不转码任何内容；版权归各电视台所有。
 #EXTINF:-1 tvg-id="CCTV15.cn@SD" tvg-name="CCTV-15 ( )" tvg-logo="https://i.imgur.com/CCV0eRG.png" group-title="央视",CCTV-15 ( )
 https://xykt-fix.github.io/play/a02e/index.m3u8
