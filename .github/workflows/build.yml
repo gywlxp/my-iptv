@@ -34,6 +34,7 @@ jobs:
         env:
           # ===== 上游源地址：一行一个。想加就加一行，想去掉就删掉那一行 =====
           IPTV_SOURCES: |
+            https://iptv-org.github.io/iptv/countries/hk.m3u
             https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
             https://iptv-org.github.io/iptv/countries/cn.m3u
             https://iptv-org.github.io/iptv/languages/zho.m3u
