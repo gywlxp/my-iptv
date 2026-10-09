@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTENC:UTF-8
-# 全部频道  build: 2026-10-09T02:41:20Z  channels: 1481
+# 全部频道  build: 2026-10-09T02:51:25Z  channels: 1481
 # 仅汇总公开可获取的直播地址，不存储、不转码任何内容；版权归各电视台所有。
 #EXTINF:-1 tvg-name="CCTV-1" group-title="央视",CCTV-1
 http://74.91.26.218:82/live/cctv1hd.m3u8
