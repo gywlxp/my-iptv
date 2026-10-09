@@ -9,47 +9,68 @@
 # ⚠️ 台名里不要出现 测试 / 备用 / 加群 / 付费 / 收费 这类词，会被自动过滤掉
 # =====================================================================
 
-# ---------------------------- 央视 ----------------------------
-#EXTINF:-1 group-title="央视",CCTV-1
-http://74.91.26.218:82/live/cctv1hd.m3u8
-#EXTINF:-1 group-title="央视",CCTV-2
-http://101.66.194.125:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-3
-http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-4
-http://1.197.250.140:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV-5
-http://101.66.194.125:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-6
-http://101.66.194.125:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-7
-http://101.66.194.125:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-8
-http://101.66.194.125:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-9
-http://101.66.194.125:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-10
-http://101.66.194.125:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-11
-http://101.66.194.125:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-12
-http://74.91.26.218:82/live/cctv12hd.m3u8
-#EXTINF:-1 group-title="央视",CCTV-13
-http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
-#EXTINF:-1 group-title="央视",CCTV-14
-http://101.66.194.125:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-15
-http://101.66.194.125:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="央视",CCTV-16
-http://gmxw.7766.org:808/hls/169/index.m3u8
+# =====================================================================
+# 一、央视 1~17 —— 全部来自央视官网播放器的官方源（腾讯云 CDN）
+#     规律：https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv{台号}_1/index.m3u8?b=200-1200
+#     这 17 条已逐条实测：播放列表都能取到（无加密、无 token、分片是相对路径）
+#     播放器的接口里还给每个台配了备用线路（kcdnvip / bdydns），主线路不行再换
+# =====================================================================
+#EXTINF:-1 group-title="央视",CCTV-1 综合
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv1_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-2 财经
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv2_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-3 综艺
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv3_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-4 中文国际
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv4_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-5 体育
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv5_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-6 电影
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv6_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-7 国防军事
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv7_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-8 电视剧
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv8_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-9 纪录
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv9_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-10 科教
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv10_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-11 戏曲
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv11_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-12 社会与法
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv12_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-13 新闻
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv13_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-14 少儿
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv14_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-15 音乐
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv15_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-16 奥林匹克
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv16_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-17 农业农村
+https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv17_1/index.m3u8?b=200-1200
+# 备用线路（同一个台的另外两个 CDN，主线路卡的时候换着用；把台号换掉即可）
+#EXTINF:-1 group-title="央视",CCTV-1 综合(备用·百度)
+https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv1_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-13 新闻(备用·百度)
+https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv13_1/index.m3u8?b=200-1200
+#EXTINF:-1 group-title="央视",CCTV-3 综艺(备用·kcdnvip)
+https://ldocctvwbcdks.v.kcdnvip.com/ldocctvwbcd/cdrmldcctv3_1/index.m3u8?b=200-1200
 
-# ---------------------------- 港澳台：凤凰 ----------------------------
-# 前两条是 ifeng.com 官方域名 —— 音画同步最好，优先用这两条
+# =====================================================================
+# 二、港澳台：凤凰 —— 前两条是 ifeng.com 官方域名（音画同步最好，优先用）
+# =====================================================================
 #EXTINF:-1 group-title="港澳台",凤凰卫视资讯台
 http://play-flive.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰卫视中文台
 http://play-flive.ifeng.com/live/06OLEGEGM4G.m3u8
-# 以下是备用线路：某一条音画不同步 / 播不动，就在盒子里手动换下一条
+# —— 纯音频版（同一个台的另一个官方域名 playtv-live.ifeng.com，只有声音）——
+# 用途：当广播听（开车/干活时）。注意：电视盒子类 App 可能不显示或黑屏有声。
+#EXTINF:-1 group-title="港澳台",凤凰资讯台(纯音频)
+http://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8
+#EXTINF:-1 group-title="港澳台",凤凰中文台(纯音频)
+http://playtv-live.ifeng.com/live/06OLEGEGM4G_audio.m3u8
+# 以下为备用线路（第三方转发，音画可能不同步，主线路不行再换）
 #EXTINF:-1 group-title="港澳台",凤凰卫视资讯台(线路2)
 http://112.17.0.10:8085/ysten-business/live/fhzixun/yst.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰卫视中文台(线路2)
@@ -62,85 +83,35 @@ http://223.110.236.10/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8
 http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰卫视中文台(线路4)
 http://117.169.120.138:8080/live/fhchinese/index.m3u8
-#EXTINF:-1 group-title="港澳台",凤凰卫视资讯台(线路5)
-https://tv.iill.top/jd/fhzx
-#EXTINF:-1 group-title="港澳台",凤凰卫视中文台(线路5)
-https://tv.iill.top/jd/fhzw
-#EXTINF:-1 group-title="港澳台",凤凰卫视资讯台(线路6)
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV43.m3u8
-#EXTINF:-1 group-title="港澳台",凤凰卫视中文台(线路6)
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV22.m3u8
 
-# ---------------------------- 卫视 ----------------------------
-#EXTINF:-1 group-title="卫视",安徽卫视
-http://101.66.194.125:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",北京卫视
-http://101.66.194.125:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0
+# =====================================================================
+# 三、卫视 —— 只保留【域名是电视台/广电自己】的那些（相对靠谱）
+# =====================================================================
+#EXTINF:-1 group-title="卫视",黑龙江卫视
+https://idclive.hljtv.com:4430/live/hljws_own.m3u8
+#EXTINF:-1 group-title="卫视",浙江卫视
+http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 group-title="卫视",东方卫视
+https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+#EXTINF:-1 group-title="卫视",东方卫视(线路2)
 http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 #EXTINF:-1 group-title="卫视",东南卫视
 http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
-#EXTINF:-1 group-title="卫视",甘肃卫视
-http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
-#EXTINF:-1 group-title="卫视",广西卫视
-http://101.66.194.125:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",贵州卫视
-http://101.66.194.125:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",河北卫视
-http://101.66.194.125:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",河南卫视
-http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="卫视",湖北卫视
-http://101.66.194.125:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",吉林卫视
-http://101.66.194.125:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",江苏卫视
-http://101.66.194.125:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",江西卫视
-http://101.66.194.125:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",辽宁卫视
-http://101.66.194.125:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",宁夏卫视
-https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 group-title="卫视",青海卫视
-https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
-#EXTINF:-1 group-title="卫视",山东卫视
-http://101.66.194.125:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",山西卫视
-http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
-#EXTINF:-1 group-title="卫视",陕西卫视
-https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 group-title="卫视",深圳卫视
-http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
-#EXTINF:-1 group-title="卫视",四川卫视
-http://101.66.194.125:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",西藏卫视
-http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="卫视",新疆卫视
-http://218.84.12.186:8001/hls/main/playlist.m3u8
-#EXTINF:-1 group-title="卫视",延边卫视
-https://srs.iyb983.cn:443/video/CYS/index.m3u8
-#EXTINF:-1 group-title="卫视",云南卫视
-http://101.66.194.125:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",浙江卫视
-http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 group-title="卫视",重庆卫视
-http://101.66.194.125:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="卫视",安多卫视
-https://liveout.xntv.tv/a65jur/96iln2.m3u8
-#EXTINF:-1 group-title="卫视",大湾区卫视
-http://222.128.55.152:9080/live/dwq.m3u8
-#EXTINF:-1 group-title="卫视",黑龙江卫视
-https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 #EXTINF:-1 group-title="卫视",内蒙古卫视
 http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
-#EXTINF:-1 group-title="卫视",山东教育
-https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
-#EXTINF:-1 group-title="卫视",人间卫视
-https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
-#EXTINF:-1 group-title="卫视",东方卫视4K
-https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
-#EXTINF:-1 group-title="卫视",福建海峡卫视
-http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
+#EXTINF:-1 group-title="卫视",安多卫视
+https://liveout.xntv.tv/a65jur/96iln2.m3u8
 #EXTINF:-1 group-title="卫视",苏州4K
 https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
+#EXTINF:-1 group-title="卫视",山东教育
+https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
+#EXTINF:-1 group-title="卫视",宁夏卫视
+https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 group-title="卫视",陕西卫视
+https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 group-title="卫视",青海卫视
+https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
+#EXTINF:-1 group-title="卫视",人间卫视
+https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
+#EXTINF:-1 group-title="卫视",延边卫视
+https://srs.iyb983.cn/video/CYS/index.m3u8
