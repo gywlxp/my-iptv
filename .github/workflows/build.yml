@@ -41,10 +41,10 @@ jobs:
           IPTV_SOURCES: |
             https://iptv-org.github.io/iptv/countries/cn.m3u
             https://iptv-org.github.io/iptv/languages/zho.m3u
-            https://iptv-org.github.io/iptv/countries/hk.m3u
+            https://iptv-org.github.io/iptv/index.m3u
             # 香港频道（想要就把下面这行前面的 # 去掉）
-            # 全世界的频道（文件会很大、播放器加载慢，一般不要开）
-            # https://iptv-org.github.io/iptv/index.m3u
+            # https://iptv-org.github.io/iptv/countries/hk.m3u
+            # 全世界的频道（文件会很大、播放器加载慢，一般不要开） 
           # ===== 想让它先筛掉打不开的源，就改成 'true'（会慢几分钟） =====
           IPTV_PROBE: 'false'
         run: |
@@ -153,14 +153,29 @@ jobs:
           /* ============================ 3. 清洗去重 ============================ */
           const NOISE = /(\[[^\]]*\])|(【[^】]*】)|(\b(?:FHD|UHD|HEVC|H265|H264|1080P|720P|480P|IPV6|IPV4|HD|SD|4K|8K)\b)|(高清|超清|标清|蓝光|在线直播|测试|备用)/gi;
 
+          /** 上游有些行丢了 #EXTINF:-1 前缀，属性被整段当成台名 → 这里剥掉 */
+          function stripLeakedAttrs(s) {
+            let t = String(s || '');
+            if (!/tvg-|group-title=|#EXTINF/i.test(t)) return t;
+            const parts = t.split(',').map((x) => x.trim()).filter(Boolean);
+            const tail = parts.length ? parts[parts.length - 1] : '';
+            const fromAttr = (t.match(/tvg-name\s*=\s*"([^"]+)"/i) || t.match(/tvg-id\s*=\s*"([^"]+)"/i) || [])[1];
+            if (tail && !/tvg-|group-title=|#EXTINF/i.test(tail)) t = tail;
+            else if (fromAttr) t = fromAttr;
+            return t.replace(/\b(tvg-[a-z-]+|group-title)\s*=\s*"[^"]*"/gi, ' ')
+                    .replace(/\b(?:#EXTINF[:\-]?\s*-?\d*(?:\.\d+)?)\b/gi, ' ')
+                    .trim();
+          }
+
           function cleanName(raw) {
-            let n = String(raw || '').replace(NOISE, ' ').replace(/\s+/g, ' ').replace(/^[\s\-_·.]+|[\s\-_·.]+$/g, '').trim();
+            let n = stripLeakedAttrs(raw);
+            n = String(n || '').replace(NOISE, ' ').replace(/\s+/g, ' ').replace(/^[\s\-_·.]+|[\s\-_·.]+$/g, '').trim();
             const cctv = n.match(/^cctv[\s\-_]*(\d{1,2}\+?)/i);
             if (cctv) {
               const rest = n.slice(cctv[0].length).trim();
               n = rest ? `CCTV-${cctv[1]} ${rest}` : `CCTV-${cctv[1]}`;
             }
-            return n || String(raw || '').trim();
+            return n || stripLeakedAttrs(raw);
           }
 
           function normUrl(u) {
@@ -267,6 +282,8 @@ jobs:
             log('【4/4】输出');
             await mkdir(OUT_DIR, { recursive: true });
             const stamp = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
+            // ⚠️ 属性值里的双引号必须替换掉，否则会出现 "a="b"" 这种坏行，播放器解析到就崩
+            const esc = (s) => String(s ?? '').replace(/"/g, "'").replace(/[\r\n]+/g, ' ').replace(/\s+/g, ' ').trim();
             const toM3U = (arr, title) => {
               const head = [
                 '#EXTM3U',
@@ -276,12 +293,12 @@ jobs:
               ].join('\n');
               const body = arr.map((c) => {
                 const attrs = [
-                  c.tvgId ? `tvg-id="${c.tvgId}"` : '',
-                  `tvg-name="${c.name}"`,
-                  c.logo ? `tvg-logo="${c.logo}"` : '',
-                  `group-title="${c.group}"`,
+                  c.tvgId ? `tvg-id="${esc(c.tvgId)}"` : '',
+                  `tvg-name="${esc(c.name)}"`,
+                  c.logo ? `tvg-logo="${esc(c.logo)}"` : '',
+                  `group-title="${esc(c.group)}"`,
                 ].filter(Boolean).join(' ');
-                return `#EXTINF:-1 ${attrs},${c.name}\n${c.url}`;
+                return `#EXTINF:-1 ${attrs},${esc(c.name)}\n${c.url}`;
               }).join('\n');
               return `${head}\n${body}\n`;
             };
