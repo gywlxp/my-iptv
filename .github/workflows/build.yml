@@ -41,7 +41,7 @@ jobs:
           IPTV_SOURCES: |
             https://iptv-org.github.io/iptv/countries/cn.m3u
             https://iptv-org.github.io/iptv/languages/zho.m3u
-            # https://iptv-org.github.io/iptv/index.m3u
+            https://iptv-org.github.io/iptv/countries/tw.m3u
             https://iptv-org.github.io/iptv/countries/hk.m3u
             # 香港频道（想要就把下面这行前面的 # 去掉）
             # 全世界的频道（文件会很大、播放器加载慢，一般不要开） 
