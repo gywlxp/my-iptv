@@ -3,6 +3,7 @@ CCTV-1 综合,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcct
 CCTV-10 科教,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv10_1/index.m3u8?b=200-1200
 CCTV-11 戏曲,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv11_1/index.m3u8?b=200-1200
 CCTV-12 社会与法,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv12_1/index.m3u8?b=200-1200
+CCTV-13 新闻,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv13_1/index.m3u8?b=200-1200
 CCTV-14 少儿,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv14_1/index.m3u8?b=200-1200
 CCTV-2 财经,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv2_1/index.m3u8?b=200-1200
 CCTV-3 综艺,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv3_1/index.m3u8?b=200-1200
@@ -11,6 +12,7 @@ CCTV-5 体育,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcct
 CCTV-6 电影,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv6_1/index.m3u8?b=200-1200
 CCTV-7 国防军事,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv7_1/index.m3u8?b=200-1200
 CCTV-8 电视剧,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv8_1/index.m3u8?b=200-1200
+CCTV-9 纪录,https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv9_1/index.m3u8?b=200-1200
 CCTV-1 ( ),http://69.30.245.50/live/cctv1.m3u8
 CCTV-1 ( ),http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV-10 ( ),http://74.91.26.218:82/live/cctv10hd.m3u8
@@ -63,9 +65,7 @@ CCTV-Women's Fashion ( ),http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=tes
 CCTV-World Geography ( ),http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
 Chaozhou Public Channel,http://113.64.146.48:1688/hls/4/index.m3u8
 Guangxi Variety & Travel Channel,http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-Jade ( ),http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
 Kangba TV,http://110.185.237.164:8888/hls/30/index.m3u8
-Mei Ah Movie Channel ( ),http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8
 八大戏剧台,http://61.221.215.25:8800/hls/39/index.m3u8
 车迷频道,http://120.76.248.139/live/bfgd/4200000146.m3u8
 广东大湾区,http://222.128.55.152:9080/live/dwq.m3u8
@@ -75,13 +75,13 @@ Mei Ah Movie Channel ( ),http://103.172.187.30:12000/stream/mytv/null-9/master.m
 乐游频道,http://8.138.7.223/tv/shtv.php?id=ly
 乐至综合,http://175.155.106.72:89/live1/live1.m3u8?zsicd
 辽宁北方,http://120.76.248.139/live/bfgd/4200000071.m3u8
-辽宁都市,http://120.76.248.139/live/bfgd/4200000610.m3u8
 辽宁都市,http://120.76.248.139/live/bfgd/4200000068.m3u8
+辽宁都市,http://120.76.248.139/live/bfgd/4200000610.m3u8
 辽宁公共,http://120.76.248.139/live/bfgd/4200000077.m3u8
 辽宁公共,http://120.76.248.139/live/bfgd/4200000481.m3u8
 辽宁教育青少,http://120.76.248.139/live/bfgd/4200000075.m3u8
-辽宁经济,http://120.76.248.139/live/bfgd/4200000480.m3u8
 辽宁经济,http://120.76.248.139/live/bfgd/4200000076.m3u8
+辽宁经济,http://120.76.248.139/live/bfgd/4200000480.m3u8
 辽宁生活,http://120.76.248.139/live/bfgd/4200000073.m3u8
 生态环境,http://120.76.248.139/live/bfgd/4200000149.m3u8
 四海钓鱼,http://120.76.248.139/live/bfgd/4200000229.m3u8
@@ -89,8 +89,6 @@ Mei Ah Movie Channel ( ),http://103.172.187.30:12000/stream/mytv/null-9/master.m
 新视觉,http://120.76.248.139/live/bfgd/4200000249.m3u8
 优优宝贝,http://120.76.248.139/live/bfgd/4200000153.m3u8
 中华特产,http://120.76.248.139/live/bfgd/4200000158.m3u8
-Asian Drama ( ),http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8
-Golden Jade ( ),http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8
 Xinjiang TV 2,http://110.153.180.106:55555/out_3/index.m3u8
 Xinjiang TV 3,http://110.153.180.106:55555/out_2/index.m3u8
 Xinjiang TV 8,http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
