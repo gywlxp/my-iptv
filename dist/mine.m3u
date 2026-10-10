@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTENC:UTF-8
-# 只含你自己的源  build: 2026-10-10T14:53:03Z  channels: 520
+# 只含你自己的源  build: 2026-10-10T14:54:16Z  channels: 520
 # 仅汇总公开可获取的直播地址，不存储、不转码任何内容；版权归各电视台所有。
 #EXTINF:-1 tvg-id="CCTV-5+" tvg-name="CCTV-5+" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="央视",CCTV-5+
 https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
