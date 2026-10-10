@@ -42,9 +42,9 @@ jobs:
           # ⚠️ 这里跑在 GitHub 的服务器上，直连就行，不要用 ghproxy 之类的代理
           IPTV_SOURCES: |
             https://iptv-org.github.io/iptv/countries/hk.m3u
-            https://iptv-org.github.io/iptv/countries/tw.m3u
             https://iptv-org.github.io/iptv/countries/cn.m3u
             https://iptv-org.github.io/iptv/languages/zho.m3u
+            https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
             # 全世界的频道（1 万多条，播放器会非常卡，一般不要开）
             # https://iptv-org.github.io/iptv/index.m3u
             # 这个"IP 优选"列表里同一个地址重复几十遍，会把列表淹没（别开）
