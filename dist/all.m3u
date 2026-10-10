@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTENC:UTF-8
-# 全部频道  build: 2026-10-10T06:22:51Z  channels: 271
+# 全部频道  build: 2026-10-10T06:34:04Z  channels: 274
 # 仅汇总公开可获取的直播地址，不存储、不转码任何内容；版权归各电视台所有。
 #EXTINF:-1 tvg-name="CCTV-1 综合" group-title="央视",CCTV-1 综合
 https://ldocctvwbcdtxy.liveplay.myqcloud.com/ldocctvwbcd/cdrmldcctv1_1/index.m3u8?b=200-1200
@@ -148,18 +148,30 @@ https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
 https://hplayer1.juyun.tv/camera/154379194.m3u8
 #EXTINF:-1 tvg-id="BaichengTV.cn@SD" tvg-name="Baicheng TV" tvg-logo="https://www.tvchinese.net/uploads/tv/baicheng.jpg" group-title="其他",Baicheng TV
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
+#EXTINF:-1 tvg-id="BeautifulLifeTV.tw@SD" tvg-name="Beautiful Life TV" tvg-logo="https://i.imgur.com/hkwcBM9.png" group-title="其他",Beautiful Life TV
+https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTVPlus1.cn@SD" tvg-name="CCTV+ 1 (600p)" tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="其他",CCTV+ 1 (600p)
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTVPlus2.cn@SD" tvg-name="CCTV+ 2 (600p)" tvg-logo="https://i.imgur.com/qSg862A.png" group-title="其他",CCTV+ 2 (600p)
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CGNTVChinese.tw@SD" tvg-name="CGNTV Chinese ( )" tvg-logo="https://i.imgur.com/bPoPAbR.png" group-title="其他",CGNTV Chinese ( )
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+#EXTINF:-1 tvg-id="DaAi1.tw@SD" tvg-name="DaAi 1 ( )" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="其他",DaAi 1 ( )
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1 tvg-id="DongguanComprehensiveNewsChannel.cn@SD" tvg-name="Dongguan Comprehensive News Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/dgtv1.jpg" group-title="其他",Dongguan Comprehensive News Channel
 https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
 #EXTINF:-1 tvg-id="DragonTVInternational.cn@SD" tvg-name="Dragon TV International" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="其他",Dragon TV International
 https://restream.pdtvhd.com/memfs/0b1b95c9-3543-4af9-9fdb-cf45f1602f17.m3u8
+#EXTINF:-1 tvg-id="Good2.tw@SD" tvg-name="Good 2 ( )" tvg-logo="https://i.imgur.com/YxFRoft.png" group-title="其他",Good 2 ( )
+https://live.streamingfast.net/osmflivech2.m3u8
+#EXTINF:-1 tvg-id="GoodTV.tw@SD" tvg-name="Good TV (Taiwan) ( )" tvg-logo="https://i.imgur.com/k28Kc3o.png" group-title="其他",Good TV (Taiwan) ( )
+https://live.streamingfast.net/osmflivech1.m3u8
 #EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn@SD" tvg-name="Guangdong Satellite TV" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="其他",Guangdong Satellite TV
 https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
 #EXTINF:-1 tvg-id="GuangzhouTV.cn@SD" tvg-name="Guangzhou TV" tvg-logo="https://i.imgur.com/ff3KQXp.png" group-title="其他",Guangzhou TV
 https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
+#EXTINF:-1 tvg-id="HakkaTV.tw@SD" tvg-name="Hakka TV" tvg-logo="https://i.imgur.com/1CdGSbU.png" group-title="其他",Hakka TV
+https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8
 #EXTINF:-1 tvg-id="HarbinComprehensiveNewsChannel.cn@SD" tvg-name="Harbin Comprehensive News Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/haerbin.jpg" group-title="其他",Harbin Comprehensive News Channel
 https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
 #EXTINF:-1 tvg-id="HarbinMovieChannel.cn@SD" tvg-name="Harbin Movie Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/haerbin.jpg" group-title="其他",Harbin Movie Channel
@@ -194,6 +206,8 @@ https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
 https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
 #EXTINF:-1 tvg-id="NeiMonggolTV.cn@SD" tvg-name="Nei Monggol TV (960p)" tvg-logo="https://i.imgur.com/WeugJBE.png" group-title="其他",Nei Monggol TV (960p)
 https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8
+#EXTINF:-1 tvg-id="NTDTVAsiaPacific.us@SD" tvg-name="NTD TV Asia-Pacific" tvg-logo="https://i.imgur.com/iyFXcDy.png" group-title="其他",NTD TV Asia-Pacific
+https://live.ntdtv.com/aplive200/playlist.m3u8
 #EXTINF:-1 tvg-id="RTHKTV31.hk@SD" tvg-name="RTHK TV 31 ( )" tvg-logo="https://i.imgur.com/kf818kM.png" group-title="其他",RTHK TV 31 ( )
 https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="RTHKTV32.hk@SD" tvg-name="RTHK TV 32 ( )" tvg-logo="https://i.imgur.com/MXLuUoU.png" group-title="其他",RTHK TV 32 ( )
@@ -202,10 +216,14 @@ https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
 #EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn@SD" tvg-name="Shenzhen Satellite TV (2160p)" group-title="其他",Shenzhen Satellite TV (2160p)
 https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
+#EXTINF:-1 tvg-id="TaiwanIndigenousTV.tw@SD" tvg-name="Taiwan Indigenous TV ( )" tvg-logo="https://i.imgur.com/QqIdVqz.png" group-title="其他",Taiwan Indigenous TV ( )
+https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 #EXTINF:-1 tvg-id="TVBRICSChinese.cn@SD" tvg-name="TV BRICS Chinese ( )" tvg-logo="https://i.imgur.com/896132Z.png" group-title="其他",TV BRICS Chinese ( )
 https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8
 #EXTINF:-1 tvg-id="VoATVChina.cn@SD" tvg-name="VoA TV China ( )" tvg-logo="https://i.imgur.com/XCTZkoq.png" group-title="其他",VoA TV China ( )
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
+#EXTINF:-1 tvg-id="WXTV.tw@SD" tvg-name="WXTV ( )" tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="其他",WXTV ( )
+https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 #EXTINF:-1 tvg-id="XinjiangTV1.cn@SD" tvg-name="Xinjiang TV 1" tvg-logo="https://i.imgur.com/VLaQYn4.png" group-title="其他",Xinjiang TV 1
 https://klmysjtzb.rcsxzx.com/hls/klmy2.m3u8
 #EXTINF:-1 tvg-id="XizangTVChinese.cn@SD" tvg-name="Xizang TV Chinese" tvg-logo="https://i.imgur.com/V0v3ST5.png" group-title="其他",Xizang TV Chinese
@@ -216,14 +234,10 @@ https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us@US" tvg-name="BabyFirst ( )" tvg-logo="https://i.imgur.com/WxLHBwu.png" group-title="其他",BabyFirst ( )
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
-#EXTINF:-1 tvg-id="BeautifulLifeTV.tw@SD" tvg-name="Beautiful Life TV" tvg-logo="https://i.imgur.com/hkwcBM9.png" group-title="其他",Beautiful Life TV
-https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 #EXTINF:-1 tvg-id="BeritaRTM.my@SD" tvg-name="Berita RTM" tvg-logo="https://i.imgur.com/1Xzxsgl.png" group-title="其他",Berita RTM
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
 #EXTINF:-1 tvg-id="BreadTV.cn@SD" tvg-name="Bread TV ( )" tvg-logo="https://bread-tv.com/uploads/allimg/241202/9_1836542371.png" group-title="其他",Bread TV ( )
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-id="CGNTVChinese.tw@SD" tvg-name="CGNTV Chinese ( )" tvg-logo="https://i.imgur.com/bPoPAbR.png" group-title="其他",CGNTV Chinese ( )
-https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
 #EXTINF:-1 tvg-id="Channel8.sg@SD" tvg-name="Channel 8 (Singapore) ( )" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mediacorp_Channel_8_2023.svg/960px-Mediacorp_Channel_8_2023.svg.png" group-title="其他",Channel 8 (Singapore) ( )
 https://cdn.qd.je/163189/ch8
 #EXTINF:-1 tvg-id="ChannelU.sg@SD" tvg-name="Channel U ( )" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mediacorp_Channel_U_2023.svg/960px-Mediacorp_Channel_U_2023.svg.png" group-title="其他",Channel U ( )
@@ -232,8 +246,6 @@ https://cdn.qd.je/163189/chu
 https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
 #EXTINF:-1 tvg-id="CreaTVChannel15.us@SD" tvg-name="CreaTV Channel 15 ( )" tvg-logo="https://i.imgur.com/Lwzio0H.png" group-title="其他",CreaTV Channel 15 ( )
 https://reflect-creatv.cablecast.tv/live-13/live/live.m3u8
-#EXTINF:-1 tvg-id="DaAi1.tw@SD" tvg-name="DaAi 1 ( )" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="其他",DaAi 1 ( )
-https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1 tvg-id="DAAITV.id@SD" tvg-name="DAAI TV" tvg-logo="https://i.imgur.com/YC7JCHo.png" group-title="其他",DAAI TV
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
 #EXTINF:-1 tvg-id="DHA.tr@SD" tvg-name="DHA ( )" tvg-logo="https://i.imgur.com/VZhag2x.png" group-title="其他",DHA ( )
@@ -244,14 +256,8 @@ https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
 https://online.godstands.tv:5443/WebRTCApp/streams/KidsChinese.m3u8
 #EXTINF:-1 tvg-id="GodStandsTV.pk@Chinese" tvg-name="God Stands TV Chinese" tvg-logo="https://i.imgur.com/EO6cYUI.png" group-title="其他",God Stands TV Chinese
 https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8
-#EXTINF:-1 tvg-id="Good2.tw@SD" tvg-name="Good 2 ( )" tvg-logo="https://i.imgur.com/YxFRoft.png" group-title="其他",Good 2 ( )
-https://live.streamingfast.net/osmflivech2.m3u8
-#EXTINF:-1 tvg-id="GoodTV.tw@SD" tvg-name="Good TV (Taiwan) ( )" tvg-logo="https://i.imgur.com/k28Kc3o.png" group-title="其他",Good TV (Taiwan) ( )
-https://live.streamingfast.net/osmflivech1.m3u8
 #EXTINF:-1 tvg-id="GuangdongTVAmerica.us@SD" tvg-name="Guangdong TV America" tvg-logo="https://i.imgur.com/7J4qGjA.png" group-title="其他",Guangdong TV America
 https://h5cul1yar48um3t.wcetv.com/hls/gdtv.m3u8
-#EXTINF:-1 tvg-id="HakkaTV.tw@SD" tvg-name="Hakka TV" tvg-logo="https://i.imgur.com/1CdGSbU.png" group-title="其他",Hakka TV
-https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8
 #EXTINF:-1 tvg-id="HomePlus.ir@SD" tvg-name="HomePlus" group-title="其他",HomePlus
 https://homeplushls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="HOYInfotainment.hk@HD" tvg-name="HOY Infotainment ( )" tvg-logo="https://i.imgur.com/LNokYLQ.png" group-title="其他",HOY Infotainment ( )
@@ -272,8 +278,6 @@ https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
 #EXTINF:-1 tvg-id="NTDTV.us@East" tvg-name="NTD TV ( )" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NTD_Logo_with_symbol.svg/960px-NTD_Logo_with_symbol.svg.png" group-title="其他",NTD TV ( )
 https://ntd02.akamaized.net/HD-NY/index.m3u8
-#EXTINF:-1 tvg-id="NTDTVAsiaPacific.us@SD" tvg-name="NTD TV Asia-Pacific" tvg-logo="https://i.imgur.com/iyFXcDy.png" group-title="其他",NTD TV Asia-Pacific
-https://live.ntdtv.com/aplive200/playlist.m3u8
 #EXTINF:-1 tvg-id="NTDTVCanada.us@East" tvg-name="NTD TV Canada" tvg-logo="https://i.imgur.com/iyFXcDy.png" group-title="其他",NTD TV Canada
 https://live.ntdtv.com/mllive860/playlist.m3u8
 #EXTINF:-1 tvg-id="NTDTVCanada.us@West" tvg-name="NTD TV Canada West" tvg-logo="https://i.imgur.com/iyFXcDy.png" group-title="其他",NTD TV Canada West
@@ -292,8 +296,8 @@ https://petclub-samsungaus.amagi.tv/playlist.m3u8
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
 #EXTINF:-1 tvg-id="RTHKTV35.hk@HD" tvg-name="RTHK TV 35 ( )" tvg-logo="https://i.imgur.com/FQmNKDS.png" group-title="其他",RTHK TV 35 ( )
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
-#EXTINF:-1 tvg-id="TaiwanIndigenousTV.tw@SD" tvg-name="Taiwan Indigenous TV ( )" tvg-logo="https://i.imgur.com/QqIdVqz.png" group-title="其他",Taiwan Indigenous TV ( )
-https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+#EXTINF:-1 tvg-id="SupremeMasterTV.tw@SD" tvg-name="Supreme Master TV ( )" tvg-logo="https://i.imgur.com/kFMHayP.png" group-title="其他",Supreme Master TV ( )
+https://lbs-us1.suprememastertv.com/720p.m3u8
 #EXTINF:-1 tvg-id="TDMEntertainment.mo@SD" tvg-name="TDM Entertainment ( )" tvg-logo="https://i.imgur.com/7ml2bfx.png" group-title="其他",TDM Entertainment ( )
 https://live3.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
 #EXTINF:-1 tvg-id="TDMInformation.mo@SD" tvg-name="TDM Information ( )" tvg-logo="https://i.imgur.com/h7HfsLx.png" group-title="其他",TDM Information ( )
@@ -310,8 +314,6 @@ https://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd
 https://live.mana2.my/Tv2/index.m3u8?auth_key=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d&token=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d
 #EXTINF:-1 tvg-id="WCETVDigitalChannel318.us@SD" tvg-name="WCETV Digital Channel 31.8" tvg-logo="https://i.imgur.com/l0UO27k.png" group-title="其他",WCETV Digital Channel 31.8
 https://h5cul1yar48um3t.wcetv.com/hls/wcetv318.m3u8
-#EXTINF:-1 tvg-id="WXTV.tw@SD" tvg-name="WXTV ( )" tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="其他",WXTV ( )
-https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 #EXTINF:-1 tvg-id="AndoTV.cn@SD" tvg-name="Ando TV ( )" tvg-logo="https://i.imgur.com/EpTsFVu.png" group-title="其他",Ando TV ( )
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="BeijingSatelliteTV.cn@SD" tvg-name="Beijing Satellite TV" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="其他",Beijing Satellite TV
@@ -376,12 +378,28 @@ http://live.cztv.cc:85/live/ggpd.m3u8
 http://live.cztv.cc:85/live/sjpd.m3u8
 #EXTINF:-1 tvg-id="CNDFilmMiddleSchoolChannel.cn@SD" tvg-name="CND Film Middle School Channel" tvg-logo="https://i.imgur.com/4uG8HsQ.png" group-title="其他",CND Film Middle School Channel
 http://live2.rxip.sc96655.com/live/zxs_4000.m3u8?A=&E=&K=&P=&S=&U=
+#EXTINF:-1 tvg-id="CTiVariety.tw@SD" tvg-name="CTi Variety ( )" tvg-logo="https://i.imgur.com/tqsKObw.png" group-title="其他",CTi Variety ( )
+http://23.237.10.66:16372
+#EXTINF:-1 tvg-id="CTS.tw@SD" tvg-name="CTS ( )" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="其他",CTS ( )
+rtmp://59.124.75.138:1935/sat/tv111
+#EXTINF:-1 tvg-id="CTSNews.tw@SD" tvg-name="CTS News" tvg-logo="https://i.imgur.com/V1EVtRm.png" group-title="其他",CTS News
+http://seb.sason.top/sc/hsxw_fhd.m3u8
+#EXTINF:-1 tvg-id="DaAi2.tw@SD" tvg-name="DaAi 2 ( )" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="其他",DaAi 2 ( )
+http://nmk.ioapk.com:5050/4gtv-live106/index.m3u8
 #EXTINF:-1 tvg-id="DocumentaryHumanitiesChannel.cn@SD" tvg-name="Documentary Humanities Channel ( )" tvg-logo="https://i.imgur.com/CEcNWsE.png" group-title="其他",Documentary Humanities Channel ( )
 http://39.135.138.59:18890/PLTV/88888910/224/3221225655/index.m3u8
 #EXTINF:-1 tvg-id="DunhuangTV.cn@SD" tvg-name="Dunhuang TV ( )" tvg-logo="https://i.imgur.com/RpGKOQd.jpg" group-title="其他",Dunhuang TV ( )
 http://117.156.28.119/270000001111/1110000028/index.m3u8
+#EXTINF:-1 tvg-id="EBCFinancialNews.tw@SD" tvg-name="EBC Financial News ( )" tvg-logo="https://i.imgur.com/uFDkOhV.png" group-title="其他",EBC Financial News ( )
+http://seb.sason.top/sc/dscjxw_fhd.m3u8
+#EXTINF:-1 tvg-id="EBCNews.tw@SD" tvg-name="EBC News ( )" tvg-logo="https://i.imgur.com/QFZs80p.png" group-title="其他",EBC News ( )
+http://seb.sason.top/sc/dsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="FengshangShoppingChannel.cn@SD" tvg-name="Fengshang Shopping Channel ( )" tvg-logo="https://i.imgur.com/WNhfnUR.png" group-title="其他",Fengshang Shopping Channel ( )
 http://183.207.248.71/cntv/live1/fengshanggw/fengshanggw
+#EXTINF:-1 tvg-id="FTV.tw@SD" tvg-name="FTV (Taiwan) ( )" tvg-logo="https://i.imgur.com/q8ahtbT.png" group-title="其他",FTV (Taiwan) ( )
+http://seb.sason.top/ptv/ftv.php?id=ms
+#EXTINF:-1 tvg-id="FTVOne.tw@SD" tvg-name="FTV One ( )" tvg-logo="https://i.imgur.com/HBT2o0I.png" group-title="其他",FTV One ( )
+http://seb.sason.top/ptv/ftv.php?id=dy
 #EXTINF:-1 tvg-id="FujianComprehensiveChannel.cn@SD" tvg-name="Fujian Comprehensive Channel" tvg-logo="https://i.imgur.com/rePTGa6.png" group-title="其他",Fujian Comprehensive Channel
 http://120.39.52.202:5140/%E7%A6%8F%E5%BB%BA%E7%BB%BC%E5%90%88
 #EXTINF:-1 tvg-id="GoldenEagleCartoon.cn@SD" tvg-name="Golden Eagle Cartoon (576p)" tvg-logo="https://i.imgur.com/xfVHrKQ.png" group-title="其他",Golden Eagle Cartoon (576p)
@@ -406,6 +424,8 @@ http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_348.m3u8
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-id="HunanWomensChannel.cn@SD" tvg-name="Hunan Womens Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/csnxpd.jpg" group-title="其他",Hunan Womens Channel
 http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_349.m3u8
+#EXTINF:-1 tvg-id="IndigenousTV.tw@SD" tvg-name="Indigenous TV ( )" tvg-logo="https://i.imgur.com/vmk4F9u.png" group-title="其他",Indigenous TV ( )
+http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Jade.hk@SD" tvg-name="Jade ( )" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="其他",Jade ( )
 http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
 #EXTINF:-1 tvg-id="JiangsuCityChannel.cn@SD" tvg-name="Jiangsu City Channel (576p)" tvg-logo="https://www.tvchinese.net/uploads/tv/jscs.jpg" group-title="其他",Jiangsu City Channel (576p)
@@ -434,6 +454,8 @@ http://118.122.2.29:9999/hls/47/index.m3u8
 http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
 #EXTINF:-1 tvg-id="MeiAhMovieChannel.hk@SD" tvg-name="Mei Ah Movie Channel ( )" tvg-logo="https://i.imgur.com/laGiFM1.png" group-title="其他",Mei Ah Movie Channel ( )
 http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8
+#EXTINF:-1 tvg-id="MOMOTV.tw@SD" tvg-name="MOMO TV ( )" tvg-logo="https://m.momoshop.com.tw/img/message.png" group-title="其他",MOMO TV ( )
+http://nmk.ioapk.com:5050/4gtv-live107/index.m3u8
 #EXTINF:-1 tvg-id="NeiMonggolTV2MongolianCultureChannel.cn@SD" tvg-name="Nei Monggol TV 2 Mongolian Culture Channel" tvg-logo="https://i.imgur.com/kpsjahG.png" group-title="其他",Nei Monggol TV 2 Mongolian Culture Channel
 http://1.24.190.98:10080/hls/40/index.m3u8
 #EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn@SD" tvg-name="Ningxia Satellite Channel (576p)" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="其他",Ningxia Satellite Channel (576p)
@@ -458,6 +480,8 @@ http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8
 http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
 #EXTINF:-1 tvg-id="QTV6.cn@SD" tvg-name="QTV-6" tvg-logo="https://www.tvchinese.net/uploads/tv/qdtv6.jpg" group-title="其他",QTV-6
 http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
+#EXTINF:-1 tvg-id="SETNews.tw@SD" tvg-name="SET News ( )" tvg-logo="https://i.imgur.com/EGVbAvJ.png" group-title="其他",SET News ( )
+http://seb.sason.top/sc/sllive_fhd.m3u8
 #EXTINF:-1 tvg-id="ShandongSatelliteTV.cn@SD" tvg-name="Shandong Satellite TV ( )" tvg-logo="https://www.tvchinese.net/uploads/tv/shandongtv.jpg" group-title="其他",Shandong Satellite TV ( )
 http://125.210.152.18:9090/live/SDWSHD_H265.m3u8
 #EXTINF:-1 tvg-id="ShandongTV.cn@SD" tvg-name="Shandong TV ( )" tvg-logo="https://i.imgur.com/t3ICc4i.png" group-title="其他",Shandong TV ( )
@@ -484,6 +508,8 @@ http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
 #EXTINF:-1 tvg-id="TonghuaTV.cn@SD" tvg-name="Tonghua TV ( )" tvg-logo="https://www.tvchinese.net/uploads/tv/thtv1.jpg" group-title="其他",Tonghua TV ( )
 http://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8
+#EXTINF:-1 tvg-id="TTV.tw@SD" tvg-name="TTV ( )" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/32/TTV_2nd_logo.svg/960px-TTV_2nd_logo.svg.png" group-title="其他",TTV ( )
+http://162.19.247.76:22222/live/taishi/index.m3u8
 #EXTINF:-1 tvg-id="tvNAsia.hk@HD" tvg-name="tvN Asia ( )" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/960px-Logo_tvN.svg.png" group-title="其他",tvN Asia ( )
 http://58.8.186.128:10005/bysid/2518
 #EXTINF:-1 tvg-id="XianBusinessInformationChannel.cn@SD" tvg-name="Xi'an Business Information Channel (180p)" tvg-logo="https://i.imgur.com/dzdiY4O.png" group-title="其他",Xi'an Business Information Channel (180p)
@@ -502,40 +528,20 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8
 http://cdn6.163189.xyz/163189/8tv
 #EXTINF:-1 tvg-id="AsianDrama.hk@SD" tvg-name="Asian Drama ( )" tvg-logo="https://i.imgur.com/wqtN7mH.png" group-title="其他",Asian Drama ( )
 http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8
+#EXTINF:-1 tvg-id="AXNAsia.sg@Taiwan" tvg-name="AXN Asia Taiwan ( )" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="其他",AXN Asia Taiwan ( )
+http://125.227.210.55:4050/VideoInput/play.ts
 #EXTINF:-1 tvg-id="ChifengComprehensiveNewsChanel.cn@SD" tvg-name="Chifeng Comprehensive News Chanel" tvg-logo="https://www.tvchinese.net/uploads/tv/cfxwzhpd.jpg" group-title="其他",Chifeng Comprehensive News Chanel
 http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
-#EXTINF:-1 tvg-id="CTiVariety.tw@SD" tvg-name="CTi Variety ( )" tvg-logo="https://i.imgur.com/tqsKObw.png" group-title="其他",CTi Variety ( )
-http://23.237.10.66:16372
-#EXTINF:-1 tvg-id="CTS.tw@SD" tvg-name="CTS ( )" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="其他",CTS ( )
-rtmp://59.124.75.138:1935/sat/tv111
-#EXTINF:-1 tvg-id="CTSNews.tw@SD" tvg-name="CTS News" tvg-logo="https://i.imgur.com/V1EVtRm.png" group-title="其他",CTS News
-http://seb.sason.top/sc/hsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="DaAi2.tw@SD" tvg-name="DaAi 2 ( )" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="其他",DaAi 2 ( )
-http://nmk.ioapk.com:5050/4gtv-live106/index.m3u8
-#EXTINF:-1 tvg-id="EBCFinancialNews.tw@SD" tvg-name="EBC Financial News ( )" tvg-logo="https://i.imgur.com/uFDkOhV.png" group-title="其他",EBC Financial News ( )
-http://seb.sason.top/sc/dscjxw_fhd.m3u8
-#EXTINF:-1 tvg-id="EBCNews.tw@SD" tvg-name="EBC News ( )" tvg-logo="https://i.imgur.com/QFZs80p.png" group-title="其他",EBC News ( )
-http://seb.sason.top/sc/dsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="FTV.tw@SD" tvg-name="FTV (Taiwan) ( )" tvg-logo="https://i.imgur.com/q8ahtbT.png" group-title="其他",FTV (Taiwan) ( )
-http://seb.sason.top/ptv/ftv.php?id=ms
-#EXTINF:-1 tvg-id="FTVOne.tw@SD" tvg-name="FTV One ( )" tvg-logo="https://i.imgur.com/HBT2o0I.png" group-title="其他",FTV One ( )
-http://seb.sason.top/ptv/ftv.php?id=dy
+#EXTINF:-1 tvg-id="DaliTV.tw@SD" tvg-name="Dali TV ( )" tvg-logo="https://i.imgur.com/pFIMLsA.png" group-title="其他",Dali TV ( )
+http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 tvg-id="FTVTaiwan.tw@SD" tvg-name="FTV Taiwan ( )" tvg-logo="https://i.imgur.com/p108I5g.png" group-title="其他",FTV Taiwan ( )
 http://seb.sason.top/ptv/ftv.php?id=tw
 #EXTINF:-1 tvg-id="GoldenJade.hk@SD" tvg-name="Golden Jade ( )" tvg-logo="https://i.imgur.com/lPYxsUr.png" group-title="其他",Golden Jade ( )
 http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8
-#EXTINF:-1 tvg-id="IndigenousTV.tw@SD" tvg-name="Indigenous TV ( )" tvg-logo="https://i.imgur.com/vmk4F9u.png" group-title="其他",Indigenous TV ( )
-http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LuxeTV.lu@SD" tvg-name="Luxe TV ( )" tvg-logo="https://i.imgur.com/24ehonx.png" group-title="其他",Luxe TV ( )
 http://103.154.3.101:5001/live/1736.m3u8
-#EXTINF:-1 tvg-id="MOMOTV.tw@SD" tvg-name="MOMO TV ( )" tvg-logo="https://m.momoshop.com.tw/img/message.png" group-title="其他",MOMO TV ( )
-http://nmk.ioapk.com:5050/4gtv-live107/index.m3u8
-#EXTINF:-1 tvg-id="SETNews.tw@SD" tvg-name="SET News ( )" tvg-logo="https://i.imgur.com/EGVbAvJ.png" group-title="其他",SET News ( )
-http://seb.sason.top/sc/sllive_fhd.m3u8
 #EXTINF:-1 tvg-id="TDMOuMun.mo@SD" tvg-name="TDM Ou Mun ( )" tvg-logo="https://i.imgur.com/qDI3aMp.png" group-title="其他",TDM Ou Mun ( )
 http://61.244.22.4/ch1/ch1.live/playlist.m3u8
-#EXTINF:-1 tvg-id="TTV.tw@SD" tvg-name="TTV ( )" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/32/TTV_2nd_logo.svg/960px-TTV_2nd_logo.svg.png" group-title="其他",TTV ( )
-http://162.19.247.76:22222/live/taishi/index.m3u8
 #EXTINF:-1 tvg-id="XinjiangTV2.cn@SD" tvg-name="Xinjiang TV 2" tvg-logo="https://i.imgur.com/GXFLqxx.png" group-title="其他",Xinjiang TV 2
 http://110.153.180.106:55555/out_3/index.m3u8
 #EXTINF:-1 tvg-id="XinjiangTV3.cn@SD" tvg-name="Xinjiang TV 3" tvg-logo="https://i.imgur.com/l8S5qQB.png" group-title="其他",Xinjiang TV 3
