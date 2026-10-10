@@ -41,9 +41,9 @@ jobs:
           IPTV_SOURCES: |
             https://iptv-org.github.io/iptv/countries/cn.m3u
             https://iptv-org.github.io/iptv/languages/zho.m3u
-            https://iptv-org.github.io/iptv/index.m3u
+            # https://iptv-org.github.io/iptv/index.m3u
+            https://iptv-org.github.io/iptv/countries/hk.m3u
             # 香港频道（想要就把下面这行前面的 # 去掉）
-            # https://iptv-org.github.io/iptv/countries/hk.m3u
             # 全世界的频道（文件会很大、播放器加载慢，一般不要开） 
           # ===== 想让它先筛掉打不开的源，就改成 'true'（会慢几分钟） =====
           IPTV_PROBE: 'false'
