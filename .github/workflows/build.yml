@@ -4,7 +4,9 @@ name: 生成我的IPTV订阅源
 on:
   workflow_dispatch:        # 允许你在网页上手动点按钮运行（第一次就用它）
   schedule:
-    - cron: '0 21 * * *'    # 每天 UTC 21:00（= 北京时间 05:00）自动跑一次；GitHub 可能延迟几分钟
+    # 每天跑一次，故意避开整点：GitHub 的定时任务在整点最挤，排队延迟更久
+    # '17 21 * * *' = UTC 21:17 = 北京时间 05:17（你睡觉的时候更新）
+    - cron: '17 21 * * *'
   push:
     paths:
       - 'data/manual.m3u'              # 你改了自己的源文件 → 自动跑一次
@@ -39,12 +41,14 @@ jobs:
           # ⚠️ 地址每行必须比 IPTV_SOURCES 多缩进 2 个空格；缩进错了整个工作流会直接失效
           # ⚠️ 这里跑在 GitHub 的服务器上，直连就行，不要用 ghproxy 之类的代理
           IPTV_SOURCES: |
+            https://iptv-org.github.io/iptv/countries/hk.m3u
+            https://iptv-org.github.io/iptv/countries/tw.m3u
             https://iptv-org.github.io/iptv/countries/cn.m3u
             https://iptv-org.github.io/iptv/languages/zho.m3u
-            https://iptv-org.github.io/iptv/countries/tw.m3u
-            https://iptv-org.github.io/iptv/countries/hk.m3u
-            # 香港频道（想要就把下面这行前面的 # 去掉）
-            # 全世界的频道（文件会很大、播放器加载慢，一般不要开） 
+            # 全世界的频道（1 万多条，播放器会非常卡，一般不要开）
+            # https://iptv-org.github.io/iptv/index.m3u
+            # 这个"IP 优选"列表里同一个地址重复几十遍，会把列表淹没（别开）
+            # https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
           # ===== 想让它先筛掉打不开的源，就改成 'true'（会慢几分钟） =====
           IPTV_PROBE: 'false'
         run: |
@@ -346,3 +350,14 @@ jobs:
           fi
           git commit -m "更新订阅源 $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+
+      # jsDelivr 对分支文件缓存最长 12 小时。这一步是主动清缓存，
+      # 让新列表马上生效（不写也行，就是最多等 12 小时）。
+      # continue-on-error = 就算刷新失败也不影响构建结果。
+      - name: 刷新 jsDelivr 缓存（让新列表立刻生效）
+        continue-on-error: true
+        run: |
+          for f in dist/all.m3u dist/all.txt dist/mine.m3u dist/mine.txt dist/report.json; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/$f" || echo ERR)
+            echo "purge $f -> $code"
+          done
