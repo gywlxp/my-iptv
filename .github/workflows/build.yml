@@ -41,6 +41,7 @@ jobs:
           # ⚠️ 地址每行必须比 IPTV_SOURCES 多缩进 2 个空格；缩进错了整个工作流会直接失效
           # ⚠️ 这里跑在 GitHub 的服务器上，直连就行，不要用 ghproxy 之类的代理
           IPTV_SOURCES: |
+            https://github.com/suxuang/myIPTV/blob/main/%E6%A6%B4%E8%8A%92%E7%94%B5%E8%A7%86.txt
             https://iptv-org.github.io/iptv/countries/hk.m3u
             https://iptv-org.github.io/iptv/countries/cn.m3u
             https://iptv-org.github.io/iptv/languages/zho.m3u
