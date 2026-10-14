@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTENC:UTF-8
-# 全部频道  build: 2026-10-14T11:47:58Z  channels: 10836
+# 全部频道  build: 2026-10-14T11:53:43Z  channels: 10836
 # 仅汇总公开可获取的直播地址，不存储、不转码任何内容；版权归各电视台所有。
 #EXTINF:-1 tvg-id="CCTV-5+" tvg-name="CCTV-5+" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="央视",CCTV-5+
 https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
@@ -6442,12 +6442,14 @@ http://proxpanel.cc/Aidan12/Aidan1212/1041
 http://proxpanel.cc/Aidan12/Aidan1212/1040
 #EXTINF:-1 tvg-id="成龙电影" tvg-name="成龙电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/成龙电影.png" group-title="其他",成龙电影
 http://107.150.60.122/live/lbcl.m3u8
-#EXTINF:-1 tvg-id="成龙电影" tvg-name="成龙电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/成龙电影.png" group-title="其他",成龙电影
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbcl
+#EXTINF:-1 tvg-id="电影功夫片" tvg-name="电影功夫片" tvg-logo="https://www.xn--rgv465a.top/tvlogo/电影功夫片.png" group-title="其他",电影功夫片
+http://live.metshop.top/huya/11352941?cdn=alicdn
 #EXTINF:-1 tvg-id="林正英影院" tvg-name="林正英影院" tvg-logo="https://www.xn--rgv465a.top/tvlogo/林正英影院.png" group-title="其他",林正英影院
 http://107.150.60.122/live/lblzy.m3u8
 #EXTINF:-1 tvg-id="林正英影院" tvg-name="林正英影院" tvg-logo="https://www.xn--rgv465a.top/tvlogo/林正英影院.png" group-title="其他",林正英影院
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lblzy
+#EXTINF:-1 tvg-id="周润发电影" tvg-name="周润发电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/周润发电影.png" group-title="其他",周润发电影
+http://107.150.60.122/live/lbzrf.m3u8
 #EXTINF:-1 tvg-id="周星驰电影" tvg-name="周星驰电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/周星驰电影.png" group-title="其他",周星驰电影
 http://107.150.60.122/live/lbzxc.m3u8
 #EXTINF:-1 tvg-id="周星驰电影" tvg-name="周星驰电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/周星驰电影.png" group-title="其他",周星驰电影
@@ -11758,6 +11760,8 @@ http://218.89.240.144:59901/tsfile/live/1004_1.m3u8
 http://1.94.31.214:35455/huya/11352946
 #EXTINF:-1 tvg-name="成龙电影" group-title="其他",成龙电影
 http://154.12.37.196:5555/tvbox/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%A5%BD%E4%BA%AB%E7%94%9F%E6%B4%BB%E5%B0%8F%E5%8A%A9%E6%89%8B/%E6%8E%A5%E5%8F%A3%E8%8E%B7%E5%8F%96/%E4%BB%A3%E7%90%86.php?id=http://38.75.136.137:82/live1/jsb1.m3u8?id=lbcl&usign=
+#EXTINF:-1 tvg-name="成龙电影" group-title="其他",成龙电影
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbcl
 #EXTINF:-1 tvg-name="成龙历险记" group-title="其他",成龙历险记
 http://live.nctv.top/huya.php?id=11352946
 #EXTINF:-1 tvg-name="城市剧场" group-title="其他",城市剧场
@@ -12132,8 +12136,6 @@ http://live.metshop.top/huya/11352974?cdn=alicdn
 http://live.metshop.top/huya/11352884?cdn=alicdn
 #EXTINF:-1 tvg-name="电影搞笑喜剧" group-title="其他",电影搞笑喜剧
 http://live.metshop.top/huya/11342423?cdn=alicdn
-#EXTINF:-1 tvg-name="电影功夫片" group-title="其他",电影功夫片
-http://live.metshop.top/huya/11352941?cdn=alicdn
 #EXTINF:-1 tvg-name="电影贺岁" group-title="其他",电影贺岁
 http://live.metshop.top/huya/11601971?cdn=alicdn
 #EXTINF:-1 tvg-name="电影剧场" group-title="其他",电影剧场
@@ -17650,8 +17652,6 @@ http://11.xmyxc.cn/api/php/yy.php?id=1354888733
 http://11.xmyxc.cn/api/php/yy.php?id=1354889044
 #EXTINF:-1 tvg-name="周润发电影" group-title="其他",周润发电影
 http://154.12.37.196:5555/tvbox/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%A5%BD%E4%BA%AB%E7%94%9F%E6%B4%BB%E5%B0%8F%E5%8A%A9%E6%89%8B/%E6%8E%A5%E5%8F%A3%E8%8E%B7%E5%8F%96/%E4%BB%A3%E7%90%86.php?id=http://38.75.136.137:82/live1/jsb1.m3u8?id=lbzrf&usign=
-#EXTINF:-1 tvg-name="周润发电影" group-title="其他",周润发电影
-http://107.150.60.122/live/lbzrf.m3u8
 #EXTINF:-1 tvg-name="周润发电影" group-title="其他",周润发电影
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbzrf
 #EXTINF:-1 tvg-name="周星驰典@代" group-title="其他",周星驰典@代

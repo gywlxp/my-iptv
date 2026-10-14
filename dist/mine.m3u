@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTENC:UTF-8
-# 只含你自己的源  build: 2026-10-14T11:47:58Z  channels: 288
+# 只含你自己的源  build: 2026-10-14T11:53:43Z  channels: 289
 # 仅汇总公开可获取的直播地址，不存储、不转码任何内容；版权归各电视台所有。
 #EXTINF:-1 tvg-id="CCTV-5+" tvg-name="CCTV-5+" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="央视",CCTV-5+
 https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
@@ -552,12 +552,14 @@ http://r.jdshipin.com/0Rp07
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 tvg-id="成龙电影" tvg-name="成龙电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/成龙电影.png" group-title="其他",成龙电影
 http://107.150.60.122/live/lbcl.m3u8
-#EXTINF:-1 tvg-id="成龙电影" tvg-name="成龙电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/成龙电影.png" group-title="其他",成龙电影
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbcl
+#EXTINF:-1 tvg-id="电影功夫片" tvg-name="电影功夫片" tvg-logo="https://www.xn--rgv465a.top/tvlogo/电影功夫片.png" group-title="其他",电影功夫片
+http://live.metshop.top/huya/11352941?cdn=alicdn
 #EXTINF:-1 tvg-id="林正英影院" tvg-name="林正英影院" tvg-logo="https://www.xn--rgv465a.top/tvlogo/林正英影院.png" group-title="其他",林正英影院
 http://107.150.60.122/live/lblzy.m3u8
 #EXTINF:-1 tvg-id="林正英影院" tvg-name="林正英影院" tvg-logo="https://www.xn--rgv465a.top/tvlogo/林正英影院.png" group-title="其他",林正英影院
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lblzy
+#EXTINF:-1 tvg-id="周润发电影" tvg-name="周润发电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/周润发电影.png" group-title="其他",周润发电影
+http://107.150.60.122/live/lbzrf.m3u8
 #EXTINF:-1 tvg-id="周星驰电影" tvg-name="周星驰电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/周星驰电影.png" group-title="其他",周星驰电影
 http://107.150.60.122/live/lbzxc.m3u8
 #EXTINF:-1 tvg-id="周星驰电影" tvg-name="周星驰电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/周星驰电影.png" group-title="其他",周星驰电影
