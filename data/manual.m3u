@@ -47,7 +47,6 @@ http://38.75.136.137:98/gslb/dsdqpub/cctv4k.m3u8?auth=testpub
 http://107.150.60.122/live/cctv5hd.m3u8
 http://8.138.7.223/tv/api.php?id=cctv5
 http://207.56.13.146:81/cdnlive/cctv5.m3u8
-
 http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0
 http://173.208.212.130:8181/720p/cctv5.m3u8
 #EXTINF:-1 tvg-id="CCTV-5+" tvg-name="CCTV-5+" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5+.png" group-title="📺央视频道",CCTV-5+
@@ -57,7 +56,6 @@ http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 http://120.76.248.139/live/bfgd/4200000246.m3u8
 https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
 #EXTINF:-1 tvg-id="CCTV-6" tvg-name="CCTV-6" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-6.png" group-title="📺央视频道",CCTV-6
-http://74.91.26.218:82/live/cctv6hd.m3u8
 http://192.151.150.154/live/cctv6hd.m3u8
 http://198.204.228.26/live/cctv6hd.m3u8
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd
@@ -377,5 +375,4 @@ http://live.metshop.top/huya/11352941?cdn=alicdn
 https://live.ottiptv.cc/yy/1382736858
 #EXTINF:-1 tvg-id="碟中谍系列电影" tvg-name="碟中谍系列电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/碟中谍系列电影.png" group-title="🎬电影频道",碟中谍系列电影
 https://live.ottiptv.cc/yy/1382736836
-#EXTINF:-1 tvg-id="林正英经典" tvg-name="林正英经典" tvg-logo="https://www.xn--rgv465a.top/tvlogo/林正英经典.png" group-title="🎬电影频道",林正英经典
-https://live.ottiptv.cc/yy/1351505899
+
