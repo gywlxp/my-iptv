@@ -342,10 +342,10 @@ http://107.150.60.122/live/lbzxc.m3u8
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbzxc
 #EXTINF:-1 tvg-id="周润发电影" tvg-name="周润发电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/周润发电影.png" group-title="🎬电影频道",周润发电影
 http://107.150.60.122/live/lbzrf.m3u8
-#EXTINF:-1 tvg-id="电影功夫片" tvg-name="电影功夫片" tvg-logo="https://www.xn--rgv465a.top/tvlogo/电影功夫片.png" group-title="🎬电影频道",电影功夫片
-http://live.metshop.top/huya/11352941?cdn=alicdn
-#EXTINF:-1 tvg-id="国产动作电影" tvg-name="国产动作电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/国产动作电影.png" group-title="🎬电影频道",电国产动作电影
-https://live.ottiptv.cc/yy/1382736858
+#EXTINF:-1 tvg-id="精彩动作电影" tvg-name="精彩动作电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/精彩动作电影.png" group-title="🎬电影频道",精彩动作电影
+https://live.ottiptv.cc/yy/1382736823
+#EXTINF:-1 tvg-id="国外动作大片" tvg-name="国外动作大片" tvg-logo="https://www.xn--rgv465a.top/tvlogo/国外动作大片.png" group-title="🎬电影频道",国外动作大片
+https://live.ottiptv.cc/yy/1382735540
 #EXTINF:-1 tvg-id="碟中谍系列电影" tvg-name="碟中谍系列电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/碟中谍系列电影.png" group-title="🎬电影频道",碟中谍系列电影
 https://live.ottiptv.cc/yy/1382736836
 
