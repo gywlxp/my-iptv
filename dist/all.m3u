@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTENC:UTF-8
-# 全部频道  build: 2026-11-23T14:15:25Z  channels: 14173
+# 全部频道  build: 2026-11-23T14:18:51Z  channels: 14173
 # 仅汇总公开可获取的直播地址，不存储、不转码任何内容；版权归各电视台所有。
 #EXTINF:-1 tvg-name="风云音乐" group-title="央视",风云音乐
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyyy
